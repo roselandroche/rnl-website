@@ -1,30 +1,28 @@
 import React from "react";
 import logo from "./images/logo.svg";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import Home from "./components/Home";
-import History from "./components/History";
-import About from "./components/About";
+import Home from "./components/Home.tsx";
+import History from "./components/History.tsx";
+import About from "./components/About.tsx";
 
 const App = () => {
   return (
     <div className="App">
-      <header>
-        <Header />
-      </header>
+      <Header />
+
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Rose Landroche</h1>
+
       <Routes>
-        <Route to="/" component={Home} />
-        <Route to="/history" component={History} />
-        <Route to="/about" component={About} />
+        <Route to="/" exact component={Home} />
+        <Route to="/history" exact component={History} />
+        <Route to="/about" exact component={About} />
       </Routes>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };
