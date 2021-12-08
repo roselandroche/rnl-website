@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./images/logo.svg";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import "./css/app.css";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -14,8 +14,10 @@ const App = () => {
     <div className="App">
       <Header />
 
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1>Rose Landroche</h1>
+      <div className="main">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Rose Landroche</h1>
+      </div>
 
       <Routes>
         <Route to="/" exact component={Home} />
