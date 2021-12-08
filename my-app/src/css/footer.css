@@ -1,5 +1,6 @@
 .footer {
-  margin: 24px 0;
+  margin: 24px auto;
+  max-width: 90%;
 }
 
 .footer > ul {

@@ -1,0 +1,32 @@
+/* ensure minimum height and max width of all pages */
+.main {
+  min-height: calc(100vh - 128px);
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* base styling */
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+}
