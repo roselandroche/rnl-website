@@ -1,0 +1,13 @@
+.header {
+  margin: 24px auto;
+  max-width: 90%;
+}
+
+.header > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > ul > a {
+  padding-left: 12px;
+}

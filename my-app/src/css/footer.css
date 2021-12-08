@@ -1,0 +1,13 @@
+.footer {
+  margin: 24px auto;
+  max-width: 90%;
+}
+
+.footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer > ul > a {
+  padding-left: 12px;
+}

@@ -1,8 +1,10 @@
 import React from "react";
+import "../css/global.css";
+import "../css/footer.css";
 
 function Footer() {
   return (
-    <div>
+    <div className="footer">
       <ul>
         <a href="mailto:r.landroche@gmail.com">Send Email</a>
         <a
