@@ -1,0 +1,18 @@
+.jobCard {
+  margin: 24px 0;
+}
+
+.jobCard > h3 {
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.jobCard > h4 {
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
+.jobCard > ul {
+  padding-bottom: 12px;
+  list-style: circle inside;
+}
