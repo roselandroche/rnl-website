@@ -6,9 +6,9 @@ import "./css/index.css";
 import "./css/global.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
-import History from "./components/History";
-import About from "./components/About";
+import Home from "./pages/Home";
+import History from "./pages/History";
+import About from "./pages/About";
 
 ReactDOM.render(
   <Router>
