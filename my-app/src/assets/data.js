@@ -28,7 +28,7 @@ export const jobs = [
 export const edu = [
   {
     institution: "Lambda School (now Bloom Institute of Technology)",
-    credentialEarned: "Full Stack Web Development",
+    credentialEarned: "Certificate: Full Stack Web Development",
     timeframe: "2019 - 2020",
   },
   {
