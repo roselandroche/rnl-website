@@ -1,0 +1,43 @@
+.option {
+  display: flex;
+}
+
+.option > .edu-button,
+.option > .emp-button {
+  margin-right: 12px;
+  cursor: pointer;
+  padding: 8px 12px 0 0;
+  font-size: 20px;
+}
+
+.option > .edu-button-disabled,
+.option > .emp-button-disabled {
+  display: none;
+}
+
+.option > .edu-button:hover,
+.option > .emp-button:hover {
+  text-decoration: underline;
+}
+
+.jobCard,
+.eduCard {
+  margin: 36px 0 24px 0;
+}
+
+.jobCard > h3,
+.eduCard > h3 {
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.jobCard > h4,
+.eduCard > h4 {
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
+.jobCard > ul {
+  padding-bottom: 12px;
+  list-style: circle inside;
+}
