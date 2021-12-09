@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import History from "./pages/History";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/history" element={<History />} />
+        <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
       <Footer />
