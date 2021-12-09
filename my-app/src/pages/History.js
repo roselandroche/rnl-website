@@ -16,12 +16,22 @@ function History() {
 
   return (
     <div className="main">
-      <h1>History</h1>
+      {side ? (
+        <h1>History | Recent Employment</h1>
+      ) : (
+        <h1>History | Education</h1>
+      )}
       <div className="option">
-        <div onClick={handleClick} className="button">
+        <div
+          onClick={handleClick}
+          className={!side ? "emp-button" : "emp-button-disabled"}
+        >
           Recent Employment
         </div>
-        <div onClick={handleClick} className="button">
+        <div
+          onClick={handleClick}
+          className={side ? "edu-button" : "edu-button-disabled"}
+        >
           Education
         </div>
       </div>
