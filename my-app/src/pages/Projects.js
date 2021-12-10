@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../css/global.css";
+import "../css/projects.css";
 import { proj } from "../assets/data";
 import ProjectCard from "../components/ProjectCard";
 

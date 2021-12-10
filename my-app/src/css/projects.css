@@ -1,0 +1,62 @@
+.projCard {
+  margin: 36px 0 24px 0;
+  display: flex;
+}
+
+.image {
+  width: 25%;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text {
+  width: 75%;
+  padding-left: 24px;
+}
+
+.projCard > .text > div {
+  margin-bottom: 12px;
+}
+
+.projCard > .text > div > a {
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.projCard > .text > h3 {
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.projCard > .text > h4 {
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
+.projCard > .text > h6 {
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
+.projCard > .text > ul {
+  padding-bottom: 12px;
+  list-style: circle inside;
+}
+
+.projDesc {
+  line-height: 1.25;
+}
+
+.projCard > .text > .stack {
+  display: flex;
+}
+
+.projCard > .text > .stack > h5 {
+  margin-right: 12px;
+  font-style: italic;
+}
