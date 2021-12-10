@@ -1,3 +1,7 @@
+import GameOfLife from "../images/GameOfLife.png";
+import ProfHistory from "../images/ProfessionalHistory.png";
+import SaveThisJob from "../images/SaveThisJob-MarketingPage.png";
+
 // history
 export const jobs = [
   {
@@ -66,7 +70,7 @@ export const proj = [
     ],
     github: "https://github.com/roselandroche/professional",
     deploy: "https://professional-history.netlify.app/",
-    image: "",
+    image: ProfHistory,
   },
   {
     title: "Conway’s Game of Life",
@@ -80,21 +84,13 @@ export const proj = [
     ],
     github: "https://github.com/roselandroche/game_of_life",
     deploy: "https://awesome-ramanujan-7d7ef5.netlify.app/",
-    image: "",
+    image: GameOfLife,
   },
   {
     title: "Save This Job",
     role: "Back End Engineer",
     stage: "Complete",
-    tech: [
-      "Node",
-      "Express",
-      "Knex",
-      "Supertest",
-      "SQLite",
-      "PostgreSQL",
-      "Heroku",
-    ],
+    tech: ["Node", "Express", "Knex", "Supertest", "SQLite", "Git", "Heroku"],
     desc: [
       "An application built to give users the ability to save job postings and related information as they search for their next career",
       "Collaboratively worked with a cross functional team to create a fully functional web application and Chrome Extension",
@@ -102,7 +98,7 @@ export const proj = [
     ],
     github: "https://github.com/roselandroche/job-book-be",
     deploy: "https://save-this-job.netlify.app/",
-    image: "",
+    image: SaveThisJob,
   },
 ];
 
