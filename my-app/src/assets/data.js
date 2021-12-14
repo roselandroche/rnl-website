@@ -106,37 +106,37 @@ export const proj = [
 export const tech = [
   {
     name: "React, JS, Node",
-    useCase: "Full stack engineering",
-    profExp: true,
-    persExp: true,
+    useCase: "Full Stack Engineering",
     relatedProjects: [
       {
         name: "Personal Portfolio",
         github: "https://github.com/roselandroche/rnl-website",
-        deployment: "",
+      },
+      {
+        name: "Professional History",
+        github: "https://github.com/roselandroche/professional",
+      },
+      {
+        name: "Conway’s Game of Life",
+        github: "https://github.com/roselandroche/game_of_life",
       },
     ],
   },
   {
     name: "Jest, Supertest, Cypress",
-    useCase: "Automated testing",
-    profExp: false,
-    persExp: true,
+    useCase: "Automated Testing",
     relatedProjects: [
       {
+        name: "Daily Challenge",
+        github: "https://github.com/roselandroche/daily-challenge",
+      },
+      {
         name: "Professional History",
-        github: "",
-        deployment: "",
+        github: "https://github.com/roselandroche/professional",
       },
       {
         name: "Save This Job",
-        github: "",
-        deployment: "",
-      },
-      {
-        name: "Daily Challenge",
-        github: "",
-        deployment: "",
+        github: "https://github.com/roselandroche/job-book-be",
       },
     ],
   },
