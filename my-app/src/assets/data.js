@@ -105,39 +105,36 @@ export const proj = [
 // about
 export const tech = [
   {
-    name: "",
-    useCase: "",
-    profExp: false,
+    name: "React, JS, Node",
+    useCase: "Full stack engineering",
+    profExp: true,
     persExp: true,
     relatedProjects: [
       {
-        name: "",
-        github: "",
+        name: "Personal Portfolio",
+        github: "https://github.com/roselandroche/rnl-website",
         deployment: "",
       },
     ],
   },
   {
-    name: "",
-    useCase: "",
+    name: "Jest, Supertest, Cypress",
+    useCase: "Automated testing",
     profExp: false,
     persExp: true,
     relatedProjects: [
       {
-        name: "",
+        name: "Professional History",
         github: "",
         deployment: "",
       },
-    ],
-  },
-  {
-    name: "",
-    useCase: "",
-    profExp: false,
-    persExp: true,
-    relatedProjects: [
       {
-        name: "",
+        name: "Save This Job",
+        github: "",
+        deployment: "",
+      },
+      {
+        name: "Daily Challenge",
         github: "",
         deployment: "",
       },
