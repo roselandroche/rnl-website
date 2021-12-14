@@ -1,6 +1,6 @@
 # RNL-Website
 
-## Deployed here: http://rlandroche.com/
+## Deployed here: https://rnl-website.netlify.app/ and moving to http://rlandroche.com/
 
 ### In Progress...
 
