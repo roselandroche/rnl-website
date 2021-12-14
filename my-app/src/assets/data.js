@@ -105,42 +105,62 @@ export const proj = [
 // about
 export const tech = [
   {
-    name: "",
-    useCase: "",
-    profExp: false,
-    persExp: true,
+    name: "React, JS, Node",
+    useCase: "Full Stack Engineering",
     relatedProjects: [
       {
-        name: "",
-        github: "",
-        deployment: "",
+        name: "Personal Portfolio",
+        github: "https://github.com/roselandroche/rnl-website",
+      },
+      {
+        name: "Professional History",
+        github: "https://github.com/roselandroche/professional",
+      },
+      {
+        name: "Conway’s Game of Life",
+        github: "https://github.com/roselandroche/game_of_life",
       },
     ],
   },
   {
-    name: "",
-    useCase: "",
-    profExp: false,
-    persExp: true,
+    name: "Jest, Supertest, Cypress",
+    useCase: "Automated Testing",
     relatedProjects: [
       {
-        name: "",
-        github: "",
-        deployment: "",
+        name: "Daily Challenge",
+        github: "https://github.com/roselandroche/daily-challenge",
+      },
+      {
+        name: "Professional History",
+        github: "https://github.com/roselandroche/professional",
+      },
+      {
+        name: "Save This Job",
+        github: "https://github.com/roselandroche/job-book-be",
       },
     ],
   },
+];
+
+export const hobbies = [
   {
-    name: "",
-    useCase: "",
-    profExp: false,
-    persExp: true,
-    relatedProjects: [
-      {
-        name: "",
-        github: "",
-        deployment: "",
-      },
-    ],
+    name: "Hiking",
+    details:
+      "I am currently based out of Vancouver, BC which is well known for its gorgeous landscapes. I try to get out exploring with friends pretty often.",
+  },
+  {
+    name: "New exciting experiences",
+    details:
+      "I love to try new things! This can mean anything from foods to activities. Some notable experiences include skydiving above Niagara Falls, eating (and enjoying) escargots, and whale watching!",
+  },
+  {
+    name: "Reading",
+    details:
+      "I've been an avid reader since I was very young. Currently my favorite books tend to lie in the fantasy genre although I do also appreciate the classics.",
+  },
+  {
+    name: "Fiber art",
+    details:
+      "I decided when I was a very young that I wanted to learn to knit. This was probably inspired by a book (see previous hobby), and once I learned I never stopped. Now I knit, crochet, and aspire to try weaving soon!",
   },
 ];

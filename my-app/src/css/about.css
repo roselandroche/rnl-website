@@ -1,0 +1,39 @@
+.main > h3 {
+  margin-top: 8px;
+}
+
+.about-tech {
+  max-width: 50%;
+}
+
+.about-hobby {
+  max-width: 50%;
+  margin-left: auto;
+}
+
+.techCard,
+.hobbyCard {
+  margin: 24px 0;
+}
+
+.techCard h4 {
+  font-weight: bold;
+}
+
+.techCard h4,
+.techCard h5 {
+  margin-bottom: 8px;
+}
+
+.techCard ul {
+  list-style: circle inside;
+}
+
+.techCard li {
+  margin-bottom: 4px;
+}
+
+.hobbyCard h4 {
+  margin-bottom: 8px;
+  font-weight: bold;
+}

@@ -24,6 +24,14 @@ h4 {
   font-size: 24px;
 }
 
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
   font-size: 18px;
@@ -36,4 +44,5 @@ a:hover {
 div,
 p {
   font-size: 18px;
+  line-height: 1.25;
 }
