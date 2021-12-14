@@ -6,6 +6,7 @@ describe("visits my deployed portfolio page", () => {
   });
 
   it("loads the home page", () => {
+    cy.url().should("include", "https://rlandroche.com");
     cy.contains("🇨🇦 Rose Landroche 🇺🇸");
     cy.contains(
       "Full Stack Web Developer | Passionate about Automated Testing"
@@ -17,10 +18,11 @@ describe("visits my deployed portfolio page", () => {
     cy.url().should("include", "/history");
     cy.contains("Jambaree | Web Developer");
     cy.contains("GrantMe | Junior Web Developer");
-    cy.get("Resume - Updated Dec 2021").should(
+    cy.get(".resume").should(
       "have.attr",
       "href",
       "/static/media/Resume-RoseLandroche.abcbd8b5.pdf"
     );
+    cy.contains("Education").click();
   });
 });
