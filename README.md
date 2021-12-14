@@ -1,7 +1,18 @@
-# RNL-Website
+# Project Title: 
+RNL-Website
 
-## Deployed here: https://rnl-website.netlify.app/ and moving to http://rlandroche.com/
+# Functionality
+Portfolio site that introduces my work, my history, my personality, and gives an option to email me.
 
-### In Progress...
+# Status: 
+Complete
 
-This project serves as a personal portfolio/virtual resume
+# Tech Stack/Framework:
+- React
+- JavaScript
+- CSS
+- HTML
+
+# Deployment: 
+- https://rnl-website.netlify.app/ 
+- http://rlandroche.com/
