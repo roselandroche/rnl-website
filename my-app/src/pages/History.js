@@ -45,7 +45,7 @@ function History() {
         edu.map((o) => {
           return <EduCard edu={o} />;
         })}
-      <a href={Resume} download="Resume-RoseLandroche">
+      <a className="resume" href={Resume} download="Resume-RoseLandroche">
         Resume - Updated Dec 2021
       </a>
     </div>
