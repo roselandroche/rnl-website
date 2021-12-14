@@ -1,7 +1,7 @@
 # RNL-Website
 
-## Deployed here: https://rnl-website.netlify.app/
+## Deployed here: http://rlandroche.com/
 
 ### In Progress...
 
-This project will serve as a personal portfolio/virtual resume
+This project serves as a personal portfolio/virtual resume
