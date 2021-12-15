@@ -14,6 +14,7 @@ describe("visits my deployed portfolio page", () => {
   });
 
   it("loads the history page", () => {
+    // main history page
     cy.contains("History").click();
     cy.url().should("include", "/history");
     cy.contains("Jambaree | Web Developer");
@@ -23,6 +24,22 @@ describe("visits my deployed portfolio page", () => {
       "href",
       "/static/media/Resume-RoseLandroche.abcbd8b5.pdf"
     );
+    // education history page
     cy.contains("Education").click();
+    cy.contains("Lambda School (now Bloom Institute of Technology)");
+    cy.contains("Kingswood University (formerly Bethany Bible College)");
+  });
+
+  it("loads the projects page", () => {
+    cy.contains("Projects").click();
+    cy.contains("Professional History | Full Stack Developer");
+    cy.contains("Conway’s Game of Life | Full Stack Developer");
+    cy.get(".projCard > div > img");
+  });
+
+  it("loads the about page", () => {
+    cy.contains("About").click();
+    cy.contains("My go to tech:");
+    cy.contains("Personal hobbies:");
   });
 });
