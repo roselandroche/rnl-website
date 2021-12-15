@@ -16,12 +16,12 @@ function ProjectCard(props) {
         )}
         {proj.github && (
           <div>
-            GitHub: <a href={proj.github}>{proj.github}</a>
+            <a href={proj.github}>GitHub</a>
           </div>
         )}
         {proj.deploy && (
           <div>
-            Deployed: <a href={proj.deploy}>{proj.deploy}</a>
+            <a href={proj.deploy}>Deployment</a>
           </div>
         )}
         <div className="stack">

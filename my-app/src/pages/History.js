@@ -15,7 +15,7 @@ function History() {
   };
 
   return (
-    <div className="main">
+    <div className="main history">
       {side ? (
         <h1>History | Recent Employment</h1>
       ) : (
