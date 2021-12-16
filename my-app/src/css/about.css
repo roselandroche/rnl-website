@@ -3,12 +3,22 @@
 }
 
 .about-tech {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .about-hobby {
-  max-width: 50%;
-  margin-left: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .about-tech {
+    max-width: 50%;
+  }
+
+  .about-hobby {
+    max-width: 50%;
+    margin-left: auto;
+  }
 }
 
 .techCard,

@@ -5,9 +5,17 @@
 
 .footer > ul {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .footer > ul > a {
   padding-left: 12px;
+}
+
+@media (min-width: 768px) {
+  .footer > ul {
+    flex-direction: row;
+  }
 }
