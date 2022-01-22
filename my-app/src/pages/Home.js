@@ -8,8 +8,8 @@ const Home = () => {
     <div className="App main home">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Rose Landroche</h1>
-      <h1>🇺🇸 🇨🇦</h1>
-      <h2>Full Stack Web Developer | Passionate about Automated Testing</h2>
+      <h2>🇺🇸 🇨🇦</h2>
+      <h3>QA Developer | Full Stack Web Developer</h3>
     </div>
   );
 };
