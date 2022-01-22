@@ -5,6 +5,13 @@ import SaveThisJob from "../images/SaveThisJob-MarketingPage.png";
 // history
 export const jobs = [
   {
+    company: "24G",
+    title: "Junior QA Developer",
+    timeframe: "Jan 2022 - Current",
+    desc: [],
+    references: null,
+  },
+  {
     company: "Jambaree",
     title: "Web Developer",
     timeframe: "Apr 2021 - Nov 2021",
